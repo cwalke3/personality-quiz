@@ -3,4 +3,16 @@
     color: white;
     border-color: #007bff;
 }
-  
+/* Highlight the selected answer */
+.answer-btn.selected {
+    background-color: #6f42c1;
+    color: white;
+    border-color: #6f42c1;
+}
+
+/* Change button color when hovering */
+.answer-btn:hover {
+    background-color: #59359a;
+    color: white;
+    border-color: #59359a;
+}
